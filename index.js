@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // ✅ Import clean route files
-const userRoutes = require("./routes/userRoutes");   // For signup/register etc.
+const userRoutes = require("./routes/UserRoutes");   // For signup/register etc.
 const authRoutes = require("./routes/authRoutes");   // For login, refresh, profile
 const noteRoutes = require("./routes/NoteRoutes");   // For CRUD notes
 const profileRoutes = require("./routes/ProfileRoutes"); // Optional (user details)
